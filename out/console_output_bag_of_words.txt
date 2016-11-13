@@ -1,0 +1,89 @@
+C:\Python27\python.exe C:/Users/Kamil/PycharmProjects/untitled/main.py
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0001.tsv started.
+10000 Time from start:15569
+20000 Time from start:42323
+30000 Time from start:75551
+40000 Time from start:110761
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0001.tsv end. Time in ms: 131353
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0002.tsv started.
+10000 Time from start:41263
+20000 Time from start:84272
+30000 Time from start:129949
+40000 Time from start:176187
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0002.tsv end. Time in ms: 202489
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0003.tsv started.
+10000 Time from start:50357
+20000 Time from start:102477
+30000 Time from start:158840
+40000 Time from start:214001
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0003.tsv end. Time in ms: 243173
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0004.tsv started.
+10000 Time from start:61529
+20000 Time from start:122761
+30000 Time from start:190013
+40000 Time from start:250558
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0004.tsv end. Time in ms: 282553
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0005.tsv started.
+10000 Time from start:63664
+20000 Time from start:128591
+30000 Time from start:195449
+40000 Time from start:261532
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0005.tsv end. Time in ms: 295649
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0006.tsv started.
+10000 Time from start:65754
+20000 Time from start:132413
+30000 Time from start:201833
+40000 Time from start:268773
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0006.tsv end. Time in ms: 303904
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0007.tsv started.
+10000 Time from start:68999
+20000 Time from start:136687
+30000 Time from start:208557
+40000 Time from start:276698
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0007.tsv end. Time in ms: 315495
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0008.tsv started.
+10000 Time from start:72478
+20000 Time from start:143910
+30000 Time from start:218509
+40000 Time from start:290113
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0008.tsv end. Time in ms: 330424
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0009.tsv started.
+10000 Time from start:77111
+20000 Time from start:152958
+30000 Time from start:230381
+40000 Time from start:309099
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0009.tsv end. Time in ms: 352155
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0010.tsv started.
+10000 Time from start:80917
+20000 Time from start:159885
+30000 Time from start:239258
+40000 Time from start:319005
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0010.tsv end. Time in ms: 360423
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0011.tsv started.
+10000 Time from start:75114
+20000 Time from start:149074
+30000 Time from start:229586
+40000 Time from start:306104
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0011.tsv end. Time in ms: 348068
+do	32303
+
+na	27468
+
+sprzedam	24131
+
+dla	15388
+
+sukienka	13624
+
+rozm	9585
+
+nowe	9478
+
+stan	9245
+
+rozmiar	9016
+
+rower	8696
+
+
+Process finished with exit code 0
