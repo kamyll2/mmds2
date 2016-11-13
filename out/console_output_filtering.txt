@@ -1,0 +1,69 @@
+C:\Python27\python.exe C:/Users/Kamil/PycharmProjects/untitled/RowFilterWithBag.py
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0001.tsv started.
+10000 Time from start:2121
+20000 Time from start:4149
+30000 Time from start:6274
+40000 Time from start:8284
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0001.tsv end. Time in ms: 9315
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0002.tsv started.
+10000 Time from start:2050
+20000 Time from start:4073
+30000 Time from start:6163
+40000 Time from start:8164
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0002.tsv end. Time in ms: 9203
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0003.tsv started.
+10000 Time from start:2057
+20000 Time from start:4083
+30000 Time from start:6168
+40000 Time from start:8173
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0003.tsv end. Time in ms: 9240
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0004.tsv started.
+10000 Time from start:2033
+20000 Time from start:4060
+30000 Time from start:6144
+40000 Time from start:8148
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0004.tsv end. Time in ms: 9192
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0005.tsv started.
+10000 Time from start:2035
+20000 Time from start:4071
+30000 Time from start:6171
+40000 Time from start:8189
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0005.tsv end. Time in ms: 9235
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0006.tsv started.
+10000 Time from start:2017
+20000 Time from start:4063
+30000 Time from start:6145
+40000 Time from start:8119
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0006.tsv end. Time in ms: 9151
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0007.tsv started.
+10000 Time from start:2061
+20000 Time from start:4087
+30000 Time from start:6192
+40000 Time from start:8171
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0007.tsv end. Time in ms: 9264
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0008.tsv started.
+10000 Time from start:2027
+20000 Time from start:4086
+30000 Time from start:6219
+40000 Time from start:8245
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0008.tsv end. Time in ms: 9330
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0009.tsv started.
+10000 Time from start:2025
+20000 Time from start:4057
+30000 Time from start:6148
+40000 Time from start:8119
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0009.tsv end. Time in ms: 9190
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0010.tsv started.
+10000 Time from start:2070
+20000 Time from start:4130
+30000 Time from start:6384
+40000 Time from start:8433
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0010.tsv end. Time in ms: 9481
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0011.tsv started.
+10000 Time from start:2060
+20000 Time from start:4137
+30000 Time from start:6300
+40000 Time from start:8340
+Reading from file D:\Magisterka\semestr2\callenge\training.v2\training.0011.tsv end. Time in ms: 9404
+
+Process finished with exit code 0

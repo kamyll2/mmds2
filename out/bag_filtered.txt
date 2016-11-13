@@ -1,0 +1,100 @@
+sprzedam	24131
+sukienka	13624
+roz	9585	rozmiar	rozm
+now	9478	nowy	nowa	nowe
+stan	9245
+rower	8696	rowerek
+buty	8528
+okazja	8403
+spodnie	6938
+praca	6400
+bluzka	6258
+zestaw	6233
+opel	6053
+samsung	5860
+audi	5507
+komplet	5232
+spodenki	5214
+super	5172
+bmw	5082
+pracy	4847
+h&m	4809
+mieszkanie	4724
+tani	4335	tanio
+cm	4325
+renault	4280
+ford	4164
+volkswagen	4064
+galaxy	4062
+opony	3838
+nike	3687
+km	3612
+dziewczynki	3523
+vw	3390
+wózek	3380
+sony	3296
+klima	3255
+koszulka	3252
+gwarancja	3165
+fiat	3164
+mercedes	3106
+oddam	3099
+koszula	3089
+zara	3077
+golf	3043
+bluza	3036
+idealn	3026	idealny
+kurtka	3013
+tdi	2939
+adidas	2928
+sandał	2928	sandały	sandałki
+iphone	2875
+gratis	2795
+honda	2723
+felgi	2717
+czarn	2678	czarna	czarny
+lato	2675
+zatrudnię	2637
+peugeot	2590
+firm	2570	firmy
+pracownik	2508
+szukam	2497
+drzwi	2472
+torebka	2457
+bdb	2411
+passat	2378
+skóra	2367
+damsk	2363	damskie	damska
+meble	2292
+benz	2269	benzyna
+szt	2247
+lg	2247
+silnik	2234
+salon	2208
+cena	2207
+astra	2206
+plus	2206
+koła	2152
+ii	2054
+fotelik	1980
+lampa	1978
+polecam	1970
+cal	1963	cali
+kierowc	1962	kierwoca	kierowcy
+mini	1956
+ikea	1954
+seat	1942
+biał	1907	biała	biały
+dobr	1884	dobry	dobra
+szpilki	1878
+toyota	1875
+zaraz	1875
+body	1871
+bluzeczk	1855	bluzeczka
+niemiec	1850
+rok	1849
+dziecięc	1847	dziecięcy
+zamiana	1830
+transport	1814
+alufelg	1812	alufelgi
+tunika	1800
