@@ -1,0 +1,47 @@
+C:\Python27\python.exe C:/Users/Kamil/PycharmProjects/untitled/PairGrouping.py
+Reading from file .\out\01 started.
+10000 Time from start:5155
+20000 Time from start:10312
+Reading from file .\out\01 end. Time in ms: 13475
+Reading from file .\out\02 started.
+10000 Time from start:5141
+20000 Time from start:10318
+Reading from file .\out\02 end. Time in ms: 13589
+Reading from file .\out\03 started.
+10000 Time from start:5151
+20000 Time from start:10288
+Reading from file .\out\03 end. Time in ms: 13432
+Reading from file .\out\04 started.
+10000 Time from start:5104
+20000 Time from start:10240
+Reading from file .\out\04 end. Time in ms: 13551
+Reading from file .\out\05 started.
+10000 Time from start:5138
+20000 Time from start:10287
+Reading from file .\out\05 end. Time in ms: 13508
+Reading from file .\out\06 started.
+10000 Time from start:5593
+20000 Time from start:11056
+Reading from file .\out\06 end. Time in ms: 14587
+Reading from file .\out\07 started.
+10000 Time from start:5512
+20000 Time from start:11045
+Reading from file .\out\07 end. Time in ms: 14492
+Reading from file .\out\08 started.
+10000 Time from start:5242
+20000 Time from start:10458
+Reading from file .\out\08 end. Time in ms: 13761
+Reading from file .\out\09 started.
+10000 Time from start:5283
+20000 Time from start:10558
+Reading from file .\out\09 end. Time in ms: 13810
+Reading from file .\out\10 started.
+10000 Time from start:5644
+20000 Time from start:11505
+Reading from file .\out\10 end. Time in ms: 15060
+Reading from file .\out\11 started.
+10000 Time from start:5465
+20000 Time from start:10963
+Reading from file .\out\11 end. Time in ms: 14339
+
+Process finished with exit code 0
