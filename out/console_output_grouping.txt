@@ -1,0 +1,47 @@
+C:\Python27\python.exe C:/Users/Kamil/PycharmProjects/untitled/CategoriesGrouping.py
+Reading from file .\out\01 started.
+10000 Time from start:247
+20000 Time from start:473
+Reading from file .\out\01 end. Time in ms: 665
+Reading from file .\out\02 started.
+10000 Time from start:353
+20000 Time from start:654
+Reading from file .\out\02 end. Time in ms: 848
+Reading from file .\out\03 started.
+10000 Time from start:361
+20000 Time from start:712
+Reading from file .\out\03 end. Time in ms: 874
+Reading from file .\out\04 started.
+10000 Time from start:342
+20000 Time from start:643
+Reading from file .\out\04 end. Time in ms: 844
+Reading from file .\out\05 started.
+10000 Time from start:298
+20000 Time from start:700
+Reading from file .\out\05 end. Time in ms: 919
+Reading from file .\out\06 started.
+10000 Time from start:400
+20000 Time from start:748
+Reading from file .\out\06 end. Time in ms: 934
+Reading from file .\out\07 started.
+10000 Time from start:338
+20000 Time from start:726
+Reading from file .\out\07 end. Time in ms: 963
+Reading from file .\out\08 started.
+10000 Time from start:327
+20000 Time from start:692
+Reading from file .\out\08 end. Time in ms: 899
+Reading from file .\out\09 started.
+10000 Time from start:347
+20000 Time from start:743
+Reading from file .\out\09 end. Time in ms: 937
+Reading from file .\out\10 started.
+10000 Time from start:358
+20000 Time from start:814
+Reading from file .\out\10 end. Time in ms: 1131
+Reading from file .\out\11 started.
+10000 Time from start:389
+20000 Time from start:838
+Reading from file .\out\11 end. Time in ms: 1075
+
+Process finished with exit code 0
