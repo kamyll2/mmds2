@@ -108,14 +108,14 @@ def millis():
 
 
 def save_result_into_file(results, name):
-    f = open(".\\out\\" + name, "w")
+    f = open("./out/" + name, "w")
     for row in results:
         f.write(row.to_str() + "\n")
     f.close()
 
 
 def parse_file(results, f):
-    print "Reading from file " + f.name + " started."
+    print("Reading from file " + f.name + " started.")
     loops = 0
     t1 = millis()
     #for i in range(0, 100):
@@ -131,23 +131,23 @@ def parse_file(results, f):
                 res.try_to_add_neighbour(NeighbourModel(splited, jaccard))
         loops += 1
         if loops % 1000 == 0:
-            print str(loops) + " Time from start:" + str(millis() - t1)
+            print(str(loops) + " Time from start:" + str(millis() - t1))
     t2 = millis() - t1
-    print "Reading from file " + f.name + " end. Time in ms: " + str(t2)
+    print("Reading from file " + f.name + " end. Time in ms: " + str(t2))
     # save_result_into_file(results, name)
 
 
 def init_result_list():
     result = []
-    f = open(".\\out\\01", 'r')
-    for i in range(0, 1000):
+    f = open("./out/filtered_data/01", 'r')
+    for i in range(0, 100):
         result.append(NearestNeighbourHolder(f.readline().replace('\n', '').split('\t')))
     f.close()
     return result
 
 
 def main():
-    file_name_format = '.\\out\\{}'
+    file_name_format = './out/filtered_data/{}'
     file_names = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"]
 
     # results = []
