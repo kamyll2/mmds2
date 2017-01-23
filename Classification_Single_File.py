@@ -1,4 +1,6 @@
 import time
+
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn import tree
 import math
@@ -50,30 +52,64 @@ def main():
 
     lines = len(X)
     train_range = int(math.floor(lines * 0.8))
-    Y = Y1
+
     x_train = X[:train_range]
     x_test = X[train_range + 1:]
-    y_train = Y[:train_range]
-    y_test = Y[train_range + 1:]
+    y1_train = Y1[:train_range]
+    y1_test = Y1[train_range + 1:]
+    y2_train = Y2[:train_range]
+    y2_test = Y2[train_range + 1:]
 
-    model = LogisticRegression(C=1)
+    #model = LogisticRegression(C=1)
+    modelY1 = RandomForestClassifier()
+    modelY2 = RandomForestClassifier()
     #model = tree.DecisionTreeClassifier(criterion='gini')
     # Train the model using the training sets and check score
-    model.fit(x_train, y_train)
-    model.score(x_train, y_train)
+    modelY1.fit(x_train, y1_train)
+    modelY2.fit(x_train, y2_train)
+    #model.score(x_train, y_train)
     # Equation coefficient and Intercept
-    print('Coefficient: \n', model.coef_)
+    #print('Coefficient: \n', model.coef_)
     #print('Intercept: \n', model.intercept_)
     # Predict Output
-    predicted = model.predict_proba(x_test)
+    predicted_probaY1 = modelY1.predict_proba(x_test)
+    predicted_probaY2 = modelY2.predict_proba(x_test)
 
+    predictedY1 = []
+    for p in predicted_probaY1:
+        maxvar = max(p)
+        idx = p.tolist().index(maxvar)
+        clazz = modelY1.classes_[idx]
+        predictedY1.append([clazz, maxvar])
+
+    predictedY2 = []
+    for p in predicted_probaY2:
+        maxvar = max(p)
+        idx = p.tolist().index(maxvar)
+        clazz = modelY2.classes_[idx]
+        predictedY2.append([clazz, maxvar])
+
+
+    finalPredicted = []
+    for i in range(0, len(predictedY1)):
+        if predictedY2[i][1] > 0.5:
+            finalPredicted.append(predictedY2[i][0])
+        elif predictedY1[i][1] > 0.5:
+            finalPredicted.append(predictedY1[i][0])
+        else:
+            finalPredicted.append(0)
     hits = 0
-    for i in range(0, len(y_test)):
-        if y_test[i] == predicted[i]:
+    nonzeros = 0
+    for i in range(0, len(y1_test)):
+        if finalPredicted[i] == y1_test[i] or finalPredicted[i] == y2_test[i]:
             hits += 1
+        if finalPredicted[i] != 0:
+            nonzeros += 1
 
-    efficiency = float(hits) / len(y_test)
-    print('EFFICIENCY: ', efficiency);
+    efficiency = float(hits) / len(y1_test)
+    efficiency_non_zeros = float(hits) / nonzeros
+    print('EFFICIENCY: ', efficiency)
+    print('EFFICIENCY NON ZEROS: ', efficiency_non_zeros)
     print('END: \n')
     # for name in file_names[0:1]:
     # for name in file_names:
