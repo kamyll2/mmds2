@@ -1,6 +1,7 @@
 import time
 
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.externals import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn import tree
 import math
@@ -61,12 +62,14 @@ def main():
     y2_test = Y2[train_range + 1:]
 
     #model = LogisticRegression(C=1)
-    modelY1 = RandomForestClassifier()
+    #modelY1 = RandomForestClassifier()
+    modelY1 = joblib.load('modelY1.pkl')
     modelY2 = RandomForestClassifier()
     #model = tree.DecisionTreeClassifier(criterion='gini')
     # Train the model using the training sets and check score
     modelY1.fit(x_train, y1_train)
     modelY2.fit(x_train, y2_train)
+    #joblib.dump(modelY1, 'modelY1.pkl')
     #model.score(x_train, y_train)
     # Equation coefficient and Intercept
     #print('Coefficient: \n', model.coef_)

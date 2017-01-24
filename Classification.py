@@ -1,6 +1,7 @@
 import time
 
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.externals import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn import tree
 from sklearn.svm import SVC
@@ -48,17 +49,17 @@ def main():
 
     #model = LogisticRegression(C=1)
     #model = SVC(C=10, kernel='linear')
-    model = RandomForestClassifier()
+    model = RandomForestClassifier(n_jobs=4)
     X_all = []
     Y_all = []
-    for name in file_names[1:2]:
+    for name in file_names:
         file_name = str.format(file_name_format, name)
         f = open(file_name, 'r')
         (X, Y1, Y2, Y3) = read_file(f)
         f.close()
 
         X_all += X
-        Y_all += Y1
+        Y_all += Y2
         #lines = len(X)
         #train_range = int(math.floor(lines * 0.8))
         #Y = Y1
@@ -78,6 +79,7 @@ def main():
     t2 = millis() - t1
     print "Learning end. Time in ms: " + str(t2)
 
+    #joblib.dump(model, 'BaseRandomForestY2.pkl')
     #model.score(x_train, y_train)
     # Equation coefficient and Intercept
     #print('Coefficient: \n', model.coef_)
@@ -91,7 +93,7 @@ def main():
 
     hits = 0
     for i in range(0, len(Y1)):
-        if Y1[i] == predicted[i]:
+        if Y2[i] == predicted[i]:
             hits += 1
 
     efficiency = float(hits) / len(Y1)
